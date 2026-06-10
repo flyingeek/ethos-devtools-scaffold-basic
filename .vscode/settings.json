@@ -1,0 +1,9 @@
+{
+    "ethos-devtools.deploy": {
+        "app": "${{appPath}}",
+        "manifest": "",
+        "steps": [
+            { "script": ".ethos-devtools/deploy-sensors.mjs", "args": ["${config:ethos.simulatorsFolder}/sensors-template.json"] }
+        ]
+    }
+}

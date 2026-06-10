@@ -1,0 +1,5 @@
+*.luac
+.DS_Store
+.vscode/*
+${{config.ethos.simulatorsFolder}}/*
+.ethos-devtools/*

@@ -1,0 +1,41 @@
+[
+    {
+        "label": "$(debug-start) Deploy & Launch SIM",
+        "command": ["ethos.stop", "ethos.clearLogfile", "ethos-devtools.deploySimulator", "ethos.start"]
+    },
+    {
+        "label": "🟢 Start SIM",
+        "command": ["ethos.stop", "ethos.clearLogfile", "ethos.start"]
+    },
+    {
+        "label": "🛑 Stop SIM",
+        "command": "ethos.stop"
+    },
+    { "label": "", "separator": true },
+    {
+        "label": "🎛️ Open Controls",
+        "command": "ethos.openControls"
+    },
+    {
+        "label": "📡 Open Telemetry",
+        "command": "ethos.openTelemetry"
+    },
+    {
+        "label": "🖥️ Open Display",
+        "command": "ethos.openDisplay"
+    },
+    { "label": "", "separator": true },
+    {
+        "label": "📊 Telemetry playback",
+        "command": "ethos-devtools.playTelemetry"
+    },
+    {
+        "label": "✏️ Set telemetry value",
+        "command": "ethos-devtools.setTelemetry"
+    },
+    { "label": "", "separator": true },
+    {
+        "label": "⚙️ Change SIM",
+        "command": ["ethos.setSimulator", "ethos.showMenu"]
+    }
+]

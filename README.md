@@ -12,3 +12,9 @@ After having setup the project, install the recommended `sumneko.lua` extension 
 
 If the ethos taskbar does not appear, with the command palette, run `Ethos: Show Menu`, otherwise, simply click on the statusbar and choose `Deploy and launch SIM`. You will have on first start a storage error, disregard it and click OK.
 You can then try to `Play Telemetry`.
+
+## Additional information
+
+Refer to the [Ethos DevTools documentation](https://github.com/flyingeek/vscode-ethos-devtools/blob/main/README.md) for more information on how to use the tools and develop your project.
+
+You can also check the [Ethos Lua Definitions](https://github.com/flyingeek/vscode-ethos-devtools/blob/main/ETHOS_LUA_DEFINITIONS.md) for alternative setup if you want AI to access it from your workspace folder.

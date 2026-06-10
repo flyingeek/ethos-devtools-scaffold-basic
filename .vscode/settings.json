@@ -5,5 +5,8 @@
         "steps": [
             { "script": ".ethos-devtools/deploy-sensors.mjs", "args": ["${config:ethos.simulatorsFolder}/sensors-template.json"] }
         ]
-    }
+    },
+    "ethos.board": "X20PRO",
+    "ethos.protocol": "FCC",
+    "ethos.release": "nightly26"
 }

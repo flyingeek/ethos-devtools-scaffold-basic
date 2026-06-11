@@ -12,5 +12,5 @@
       }
     ],
     "templateFilePatterns": ["**/*.lua", "**/*.json", "**/*.md","**/*.mjs"],
-    "excludePatterns": [".scaffold.json", ".git/**", ".gitignore", ".gitkeep"]
+    "excludePatterns": [".scaffold.json", ".git/**", "**/.gitignore", "**/.gitkeep"]
   }

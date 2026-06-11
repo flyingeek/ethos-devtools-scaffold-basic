@@ -37,8 +37,8 @@ if (process.argv[2]) {
     srcModel = resolve(process.argv[2]);
 }
 
-// Target: two levels above the app folder — <simulatorsFolder>/<board>_<protocol>@<release>/model00.bin
-const destModel = join(dirname(dirname(destPath)), basename(srcModel));
+// Target: two levels above the app folder — <simulatorsFolder>/<board>_<protocol>@<release>/models/model00.bin
+const destModel = join(dirname(dirname(destPath)), 'models','model00.bin');
 
 try {
     await access(destModel, constants.F_OK);

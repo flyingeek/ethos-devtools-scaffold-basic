@@ -1,6 +1,6 @@
 {
     "name": "Ethos Lua Widget",
-    "description": "Basic widget template",
+    "description": "Basic widget template with RSSI telemetry set",
     "version": 1,
     "prompts": [
       {
@@ -8,7 +8,8 @@
         "type": "input",
         "message": "App folder ? (e.g., myapp or src/myapp)",
         "default": "myapp",
-        "validate": "^[\\w-]*(/[\\w-]+)?$" }
+        "validate": "^[\\w-]*(/[\\w-]+)?$"
+      }
     ],
     "templateFilePatterns": ["**/*.lua", "**/*.json", "**/*.md","**/*.mjs"],
     "excludePatterns": [".scaffold.json", ".git/**", ".gitignore"]

@@ -39,7 +39,7 @@ if (version && !version.startsWith("nightly")) {
 }
 const workspaceRoot = process.env.WORKSPACE_ROOT || process.cwd();
 // .vscode/sensors.json lives at the workspaceRoot/.vscode/sensors.json by default
-let srcSensors = join(workspaceRoot, '.vscode', 'sensors.json');
+let srcSensors = join(workspaceRoot, '.ethos-devtools', 'sensors.json');
 if (process.argv[2]) {
     srcSensors = resolve(process.argv[2]);
 }

@@ -31,8 +31,8 @@ if (!destPath) {
 }
 
 const workspaceRoot = process.env.WORKSPACE_ROOT || process.cwd();
-// .vscode/model00.bin lives at the workspace root by default
-let srcModel = join(workspaceRoot, '.vscode', 'model00.bin');
+// .ethos-tools/model00.bin lives at the workspace root by default
+let srcModel = join(workspaceRoot, '.ethos-devtools', 'model00.bin');
 if (process.argv[2]) {
     srcModel = resolve(process.argv[2]);
 }

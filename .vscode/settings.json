@@ -4,12 +4,12 @@
         "manifest": "",
         "steps": [
             {
-                "script": ".ethos-devtools/deploy-model.mjs",
-                "args": ["${config:ethos.simulatorsFolder}/sim-model.bin"]
+                "script": ".ethos-devtools/deploy-steps/deploy-model.mjs",
+                "args": [".ethos-devtools/sim-model.bin"]
             },
             {
-                "script": ".ethos-devtools/deploy-sensors.mjs",
-                "args": ["${config:ethos.simulatorsFolder}/sensors.json"],
+                "script": ".ethos-devtools/deploy-steps/deploy-sensors.mjs",
+                "args": [".ethos-devtools/sensors.json"],
                 "env": { "ETHOS_VERSION": "${config:ethos.release}" }
             }
         ]

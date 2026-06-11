@@ -9,8 +9,14 @@
         "message": "App folder ? (e.g., myapp or src/myapp)",
         "default": "myapp",
         "validate": "^[\\w-]*(/[\\w-]+)?$"
+      },
+      {
+        "id": "appName",
+        "type": "input",
+        "message": "App name ? (e.g., My App)",
+        "default": "My App"
       }
     ],
     "templateFilePatterns": ["**/*.lua", "**/*.json", "**/*.md","**/*.mjs"],
     "excludePatterns": [".scaffold.json", ".git/**", "**/.gitignore", "**/.gitkeep"]
-  }
+}

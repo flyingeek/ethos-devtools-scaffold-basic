@@ -64,8 +64,8 @@ end
 local function init()
     -- this is where we 'setup' the widget
 
-    local key = "abcdefg"                -- unique key - keep it less that 7 chars
-    local name = "${{appPath|basename}}" -- name of widget
+    local key = "abcdefg"       -- unique key - keep it less that 7 chars
+    local name = "${{appName}}" -- name of widget
 
     system.registerWidget(
         {

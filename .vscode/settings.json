@@ -1,4 +1,19 @@
 {
+    "Lua.workspace.library": [
+        "${addons}/ethos/module/library"
+    ],
+    "Lua.completion.callSnippet": "Replace",
+    "Lua.completion.autoRequire": false,
+    "Lua.runtime.version": "Lua 5.4",
+    "Lua.runtime.builtin": {
+        "bit": "disable",
+        "bit32": "disable",
+        "coroutine": "disable",
+        "debug": "disable",
+        "ffi": "disable",
+        "jit": "disable"
+    },
+    "Lua.workspace.checkThirdParty": false,
     "ethos-devtools.deploy": {
         "app": "${{appPath}}",
         "manifest": "",

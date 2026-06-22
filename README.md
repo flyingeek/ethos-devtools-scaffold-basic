@@ -8,6 +8,8 @@ From a new project (empty folder) or from an existing project, run the command p
 
 After having setup the project, install the recommended [sumneko.lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) extension and using the command palette, `Lua: Open Addon manager...`, install the Ethos definitions, this will give you code completion and type checking for the Ethos API. Update the addon after each new release of ETHOS.
 
+>Note:If the extension is already installed, included .vscode/settings.json will enable it automatically.
+
 ## Simulator setup
 
 If the ethos taskbar does not appear, with the command palette, run `Ethos: Show Menu`, otherwise, simply click on the statusbar and choose `Deploy and launch SIM`. You will have on first start a storage error, disregard it and click OK.
